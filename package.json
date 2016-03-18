@@ -1,0 +1,15 @@
+{
+  "name": "slept",
+  "version": "0.0.1",
+  "description": "a proof-of-concept to monitor your sleeping (like the nsa) through the cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.12.0"
+  }
+}
