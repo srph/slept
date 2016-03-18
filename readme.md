@@ -1,4 +1,7 @@
 # slept
+```
+npm i srph/slept -g
+```
 a proof-of-concept to monitor your sleeping (like the nsa) through the cli
 
 ## usage
