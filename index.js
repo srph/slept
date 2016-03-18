@@ -1,9 +1,8 @@
+#!/usr/bin/env node
 var fs = require('fs');
 var moment = require('moment');
 var pkg = require('./package');
-var fn = 'slept.json';
-
-var args = process.argv.slice(2)
+var args = process.argv.slice(2);
 
 switch(args[0]) {
   case 'add':
