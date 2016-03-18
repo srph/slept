@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "a proof-of-concept to monitor your sleeping (like the nsa) through the cli",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
