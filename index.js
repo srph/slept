@@ -14,6 +14,7 @@ switch(args[0]) {
     write('sleptundolog', []);
     console.log('log: you slept for %d hours (from %s to %s)', args[1], start, end);
     break;
+
   case 'undo': 
     var logs = read('sleptlog');
 
@@ -29,10 +30,12 @@ switch(args[0]) {
     write('sleptundolog', stack);
     console.log('undo: you removed the recent log.');
     break;
+
   case '--version':
   case '-v':
     console.log('slept v%s', pkg.version);
     break;
+    
   default: help();
 }
 
