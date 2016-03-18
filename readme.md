@@ -4,6 +4,8 @@ npm i srph/slept -g
 ```
 a proof-of-concept to monitor your sleeping (like the nsa) through the cli
 
+it doesn't do anything cool yet, except logging haha.
+
 ## usage
 ```bash
 Usage:
